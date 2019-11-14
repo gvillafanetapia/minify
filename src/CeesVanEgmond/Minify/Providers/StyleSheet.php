@@ -1,5 +1,6 @@
 <?php namespace CeesVanEgmond\Minify\Providers;
 
+use CeesVanEgmond\Minify\Exceptions\FileNotExistException;
 use CeesVanEgmond\Minify\Contracts\MinifyInterface;
 use CssMinifier;
 
